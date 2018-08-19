@@ -11,7 +11,7 @@ license.
 The fork uses [sbt](http://scala-sbt.org/) for building, and publishes an artifact to Maven Central.
 It uses a slightly different keyboard layout (more like US keyboard, and with more keys distributed
 across the last row), and works nicely with small screen sizes (tested for 320 pixel width Raspberry
-Pi touch screen with [WebLaF](https://gitter.im/mgarin/weblaf)).
+Pi touch screen with [WebLaF](https://github.com/mgarin/weblaf)).
 
 ![Virtual keyboard preview](keyboard_imageNew.png)
 
@@ -24,7 +24,7 @@ To use the Maven artifact:
 ## Shortcomings
 
 - some keys are missing, e.g. enter and cursor keys
-- conseqeuently, not all characters can be produced, e.g. German `ß` is not available
+- consequently, not all characters can be produced, e.g. German `ß` is not available
 - keys are only sent to focused instances of `JTextComponent`
 
 The original read-me is below:
