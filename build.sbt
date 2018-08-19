@@ -3,7 +3,7 @@ val commonJavaOptions = Seq("-source", "1.8")
 val commonSettings = Seq(
   name                := "VirtualKeyboard",
   organization        := "de.sciss",
-  version             := "0.1.0-SNAPSHOT",
+  version             := "1.0.0",
   scalaVersion        := "2.12.6",
   licenses            := Seq("MIT" -> url("https://raw.githubusercontent.com/Sciss/VirtualKeyboard/master/LICENSE")),
   crossPaths          := false,
@@ -50,6 +50,7 @@ lazy val root = project.in(file("."))
   .settings(
     libraryDependencies ++= Seq(
       "de.sciss" % "submin" % "0.2.2" % Test
-    )
+    ),
+    mainClass in (Test, run) := Some("de.sciss.virtualkeyboard.Demo")
   )
 
