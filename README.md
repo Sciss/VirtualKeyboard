@@ -1,5 +1,14 @@
 # Virtual Keyboard for Java SE Applications
 
+A Swing component, useful for on-screen virtual keyboard display, when no physical keyboard
+is available (e.g., Raspberry Pi with touch screen). The original author is Wilson de Carvalho,
+and the code is released under MIT License. Fork by Hanns Holger Rutz, release under the same
+license. The fork uses sbt for building, and publishes an artifact to Maven Central.
+
+The original read-me is below:
+
+-------------------------------
+
 I created this simple virtual keyboard for a small Raspberry Pi application used with a touch screen. It lacks lots of functionalities, but it can do what I need most: the user is able to type and is unable to access function or control keys.
 
 This virtual keyboard was solely designed because I did not find nothing similar (with the limitations I needed) using Swing.

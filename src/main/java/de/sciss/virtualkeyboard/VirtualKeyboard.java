@@ -1,4 +1,4 @@
-package wcmjunior.virtualkeyboard;
+package de.sciss.virtualkeyboard;
 
 import java.awt.Color;
 import java.awt.Component;

@@ -1,11 +1,6 @@
-*.class
-*.classpath
 target/
-bin/
-out/
-nbproject/
-build/
-/log
+lib_managed/
+src_managed/
+project/boot/
 .idea/
-.gradle/
-/.nb-gradle/
+config/*.db
